@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
  
+/*background gradient*/ 
 body {
   background: #466368;
   background: -webkit-linear-gradient(#00dde5, #293f50);
@@ -8,19 +9,21 @@ body {
   background:         linear-gradient(#00dde5, #293f50);
 }
   
-
+/*first heading style*/
 h1 {
  font-family: Tahoma, Impact, sans-serif;
  color: #e1e1e1;
  font-size: 25px
 }
 
+/*introduction division style*/
 #description {
  font-family: "Times New Roman", Impact, sans-serif;
  color: #e1e1e1;
  font-size: 20px
 }
 
+/*menu style*/
 nav { 
     font-family: times, Arial, Impact, sans-serif; 
     line-height: 1.5; 
@@ -31,12 +34,13 @@ nav {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
  } 
 
+/*additional information (pop-up)*/
 .tooltip:hover{
     color: #ff0900;
     display: inline;
     position: relative;
 }
-
+/*tooltip arrow*/
 .tooltip:hover:before{
     border: solid;
     border-color: #333 transparent;
@@ -62,12 +66,7 @@ nav {
     z-index: 98;
 }
 
-/* .columns {
-	-webkit-column-count: 2; Chrome, Safari, Opera 
-    -moz-column-count: 2; Firefox 
-    column-count: 2;
-	} */
-
+/*program division style*/
  #programs { 
      background: #fff; 
      width: 900px;
@@ -81,20 +80,12 @@ nav {
      background: #005cff;
      }
  
- #programs h2 a { 
-     font-family:times; 
-     color: white; 
-     display: block; 
-     text-decoration: none; 
-     width: 900px; 
-     }
- 
  #programs p {
      font-size: 20px;
      padding: 2px 10px; 
  }
 
-
+/*preU division style*/
 #preu { 
      background: #fff; 
      width: 900px;
@@ -106,40 +97,12 @@ nav {
      padding: 7px 12px; 
      background: #0076ff;
      }
- 
-/*#preu h3 a { 
-     font-family:times; 
-     color: white; 
-     display: block; 
-     text-decoration: none; 
-     width: 900px; 
-     }
-*/ 
+
     #preu form {
 		display: none;
 	}
 	
-/*#preu form { 
-    background: #fff; 
-    font-size: 20px; 
-    line-height: 30px; 
-    height: 0;  
-    list-style-type: none; 
-    overflow: hidden; 
-    padding: 0; 
-    -webkit-transition-delay: 1s;
-    -webkit-transition: height 1s ease; 
-    -moz-transition: height 1s ease; 
-    -ms-transition: height 1s ease; 
-	-o-transition: height 1s ease; 
-    transition: height 1s ease;
-	transition-delay: 1s;
-}
-
-#preu:hover form {
-    height: 450px;
-}*/
-
+/*career division style*/
 #career { 
      background: #fff; 
      width: 900px;
@@ -152,43 +115,19 @@ nav {
      padding: 7px 12px; 
      background: #0076ff;
 }
- 
-/*#career h3 a { 
-     font-family:times; 
-     color: white; 
-     display: block; 
-     text-decoration: none; 
-     width: 900px; 
-}
-*/
+
 #career form {
 		display: none;
 	}
 	
-/*#career form {
-    background: #fff; 
-    font-size: 20px; 
-    line-height: 30px; 
-    height: 0px;
-    overflow: hidden; 
-    padding: 0px; 
-    -webkit-transition: height 1s ease; 
-    -moz-transition: height 1s ease; 
-    -o-transition: height 1s ease; 
-    -ms-transition: height 1s ease; 
-    transition: height 1s ease;
-}
-
-#career:hover form {
-    height: 500px;
-}*/
- 
+/*content wrap attributes*/ 
  .wrap {
     width:900px;
     margin-left:auto;
     margin-right:auto;
     }
-    
+
+/*comparison division style*/
 #comparison {
     background: #fff; 
     color: black;
@@ -202,6 +141,7 @@ nav {
 
     }
 
+/*footer style*/
  #footerHR {
     display: block;
     margin: auto;

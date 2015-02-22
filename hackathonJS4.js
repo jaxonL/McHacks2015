@@ -1,5 +1,5 @@
 // JavaScript Document
-
+//jQuery function for showing/hiding forms
 $(document).ready(function(){
     $("#preu h3").click(function(){
         $("#programPreUId").slideToggle("slow");
@@ -12,6 +12,7 @@ $(document).ready(function(){
     });
 });
 
+//1st function retrieving information according to result of forms and displaying retrieved information at comparison div
 function programComparePreU () {
 		var comparePreU = document.forms.programPreUName.elements.programPreU.value;
 		
@@ -80,6 +81,7 @@ function programComparePreU () {
 	
 }
 
+//2nd function retrieving information according to result of forms and displaying retrieved information at comparison div
 function programCompareCareer() {
 	var compareCareer = document.forms.programCareerName.elements.programCareer.value;
 	
@@ -153,20 +155,23 @@ function programCompareCareer() {
 		document.getElementById("comparison").innerHTML = "Please make a selection."
 	}
 		}
-		
+
+//function displaying confirm box after submitting PreU form		
 function cPressPreU() {
 	if (confirm("Confirm selection.") == true) {
 		programComparePreU (); 
+				document.getElementById("programPreUId").style.display = 'none';
+				document.getElementById("programCareer").style.display = 'none';
 
 		}
-		//else {
-			//x = "You pressed Cancel!";
-			//}
 }
 
+//function displaying confirm box after submitting Career form		
 function cPressCare() {
 	if (confirm("Confirm selection.") == true) {
 		programCompareCareer ();
+				document.getElementById("programPreUId").style.display = 'none';
+				document.getElementById("programCareer").style.display = 'none';
 	}
 }
 
