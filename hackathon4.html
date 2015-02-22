@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8                                                                                                                                  " />
+<title>Hackathon Project</title>
+<link rel="stylesheet" href="hackathonCSS4.css" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="header">
+<h1>
+<img src="http://fc05.deviantart.net/fs70/f/2015/052/7/1/website_logo_by_yuukinokai-d8iyj7k.png" alt="CEGEP Comparer" style= "float:left; width:250px;height:90">
+</h1>
+<H1>Helping you compare your CEGEP choices.</H1>
+</div>
+<br>
+<div id = "description">
+<p>Can't decide which CEGEP is best for you? Choose the program you like and see what each CEGEP offers.</p>
+</div>
+
+<div>
+<nav>
+    <div id="programs">
+      <h2>Choose a program</h2>
+      <p>Select a program to compare. Scroll down to see the results.</p>
+    </div>
+      
+     
+    <div id="preu">
+      <h3>Pre-University Programs</h3>
+        <form id="programPreUId" name="programPreUName">
+            <input type="radio" name="programPreU" value="1"/> Commerce
+            <br>
+            <input type="radio" name="programPreU" value="2"/> Communications, Media and Studio Arts
+            <br>
+            <input type="radio" name="programPreU" value="3"/>
+            Computer Science and Mathematics
+            <br>
+            <input type="radio" name="programPreU" value="4"/> <a title="formerly known as Modern Languages" class="tooltip"><span title = "description">Languages and Cultures</span></a>
+            <br>
+            <input type="radio" name="programPreU" value="5"/> Liberal Arts
+            <br>
+            <input type="radio" name="programPreU" value="6"/> Modern Languages and Music Double DCS
+            <br>
+            <input type="radio" name="programPreU" value="7"/> Music
+            <br>
+            <input type="radio" name="programPreU" value="8"/> Science
+            <br>
+            <input type="radio" name="programPreU" value="9"/> Science and Music Double DCS
+            <br>
+            <input type="radio" name="programPreU" value="10"/> <a title="Commerce Option" class="tooltip"><span title = "description">Science and Social Science Double DCS</span></a>
+            <br>
+            <input type="radio" name="programPreU" value="11"/> Social Science
+            <br>
+            <input type="radio" name="programPreU" value="12"/> Social Science and Music Double DCS
+            <br>
+            <br>
+             <button type="button" name="programPreU" onclick="cPressPreU()"> Choose</button>
+    </form>
+    </div>
+       
+    <div id="career">
+      <h3>Career Programs</h3>
+     <form id="programCareer" name="programCareerName">
+            <input type="radio" name="programCareer" value="1"/> Animal Health Technology
+            <br>
+            <input type="radio" name="programCareer" value="2"/> Architectural Technology
+            <br>
+            <input type="radio" name="programCareer" value="3"/> Building Systems Engineering Technology
+            <br>
+            <input type="radio" name="programCareer" value="4"/> Business Administration
+            <br>
+            <input type="radio" name="programCareer" value="5"/> Computer Science Technology
+            <br>
+            <input type="radio" name="programCareer" value="6"/> Computerized Systems Technology
+            <br>
+            <input type="radio" name="programCareer" value="7"/> Early Childhood Education
+            <br>
+            <input type="radio" name="programCareer" value="8"/> Environmental and Wildlife Management
+            <br>
+            <input type="radio" name="programCareer" value="9"/> Industrial Electronics
+            <br>
+            <input type="radio" name="programCareer" value="10"/> Nursing
+            <br>
+            <input type="radio" name="programCareer" value="11"/> Office Systems Technology: Micropublishing and Hypermedia
+            <br>
+            <input type="radio" name="programCareer" value="12"/> Professional Music and Song Techniques
+            <br>
+            <input type="radio" name="programCareer" value="13"/> Respiratory & Anaesthesia Technology
+            <br>
+            <input type="radio" name="programCareer" value="14"/> Special Care Counselling
+            <br>
+            <br>
+               <button type="button" name="programCareer" onclick="cPressCare()"> Choose</button>
+        </form>
+    </div>
+</nav>
+
+
+<!--
+<nav>
+    <div class="menu-item alpha">
+      <h2><a href="#">Choose your CEGEPs</a></h2>
+      <p> Choose the CEGEPs you're interested in</p>
+    </div>
+       
+    <div class="menu-item">
+      <h3><a href="#">SRAM</a></h3>
+      <ul>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Meet The Owners</a></li>
+        <li><a href="#">Awards</a></li>
+      </ul>
+    </div>
+       
+    <div class="menu-item">
+      <h3><a href="#">Private Sector</a></h3>
+      <ul>
+        <li><a href="#">Phone</a></li>
+        <li><a href="#">Email</a></li>
+        <li><a href="#">Location</a></li>
+      </ul>
+    </div>
+    
+    <div class="menu-item">
+      <h3><a href="#">Other</a></h3>
+      <ul>
+        <li><a href="#">Phone</a></li>
+        <li><a href="#">Email</a></li>
+        <li><a href="#">Location</a></li>
+      </ul>
+    </div>
+</nav>
+-->
+    
+</div>
+    <br/>
+    <br/>
+    <div id="comparison" align="justify">
+    </div>
+</div>
+
+
+<br>
+<hr id = "footerHR">
+<div id = "footer">
+<p> Hackathon 2015. Project by S. Deng, A. Qin, J. Lin, and Y. Wang. </p>
+</div>
+<script src="hackathonJS4.js"></script>
+
+</body>
+</html>
